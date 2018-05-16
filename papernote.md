@@ -1,6 +1,6 @@
 # paper note
 
-* 1.[RDMA over Commodity Ethernet at Scale](http://delivery.acm.org/10.1145/2940000/2934908/p202-guo.pdf?ip=175.159.126.197&id=2934908&acc=PUBLIC&key=CDD1E79C27AC4E65%2EFC30B8D6EF32B758%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1526398003_b29114454296136b27e611a692059607)
+### 1.[RDMA over Commodity Ethernet at Scale](http://delivery.acm.org/10.1145/2940000/2934908/p202-guo.pdf?ip=175.159.126.197&id=2934908&acc=PUBLIC&key=CDD1E79C27AC4E65%2EFC30B8D6EF32B758%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1526398003_b29114454296136b27e611a692059607)
 * [ Slice ](https://conferences.sigcomm.org/events/apnet2017/slides/cx.pdf)
 ### 3 things I understand quickly:
 * Why DC choose RDMA: 
