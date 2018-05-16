@@ -14,8 +14,7 @@ Only running RoCEv2 **at scale for intra-dc network** RDMA can in this way compl
 
 [✅Stanford NetSight2](http://yuba.stanford.edu/~nickm/papers/nikhil-thesis.pdf)
 
-[✅Microsoft Pingmesh](https://www.microsoft.com/en-us/research/publication/pingmesh-large-scale-system-data-center-network-
-latency-measurement-analysis/)
+[✅Microsoft Pingmesh](https://www.microsoft.com/en-us/research/publication/pingmesh-large-scale-system-data-center-network-latency-measurement-analysis/)
 
 [✅RDMA VS TCP](https://www.youtube.com/watch?v=u5EWqojkI1A)
 
