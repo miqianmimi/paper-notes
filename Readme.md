@@ -23,3 +23,14 @@ So we design `PASE` a transport framework that synthesize existing transport str
 TCP Congestion Control aims at choose a strategy to find the appropriate cwnd and to acheive the best utility of bandwidth. In this summary, we briefly introduce several different mechanism in TCP CC Algorithm starting from TCP Vegas , TCP Reno , Cubic, BBR and Remy.
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2018/12/06/TCP-CC/)
+
+---
+
+### Congestion Control Something to say
+* Blog Conclusion of Congestion Control
+* Reading date: 7/12/2018
+* Keywords : Congestion Control ; Reinforcement Learning
+
+I find a NYC coder's Blog in which it introduced several important concept in Congestion Control. Also with several useful code. So I read his 4 blogs and conclude his words. These 4 blogs are the introduction of CC, the Cubic , the RED , the Reinforcement Learning .
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2018/12/07/CC-BLOG/#more)
