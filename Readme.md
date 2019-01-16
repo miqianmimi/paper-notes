@@ -38,7 +38,7 @@ I find a NYC coder's Blog in which it introduced several important concept in Co
 
 ---
 
-### Congestion Control for Large-Scale RDMA Deployments
+### DCQCN -- Congestion Control for Large-Scale RDMA Deployments
 * Author: Yibo Zhu (Microsoft;ByteDance)
 * Index: SIGCOMM 2015
 * Reading date: 02/01/2019-10/01/2019
@@ -49,3 +49,22 @@ This is for `[RDMA Section]` paper 1. Aiming at reviewing the classical paper in
 This paper in one word, proposing a new way of congestion control to solve the head-of-line blocking and unfairness problem introduced by PFC. This way is very suitable for the RDMA Datacenter and works well with RoCEv2. 
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/01/11/DCQCN/#more)
+
+---
+
+### Stream-based ML for Network Security and Anomaly Detection
+* Author: Pavol Mulinka (CTU Czech)
+* Index: SIGCOMM 2018 Workshop
+* Reading date: 15/01/2019
+* Keywords : Machine Learning; Computing methodologies; Security and Privacy.
+
+> Because sometimes i don't have idea about what to do next. So i just kindly recommend to others' work to find what all people are interested in. 
+> So i decide to read all the workshop papers in the ML panel in SIGCOMM 2018
+
+This paper is about `Data Stream Machine Learning` for network security and anomaly detection. And especially for `on-line` questions (in this field the general approach is still off-line learning problem). The experiment result shows that the `adaptive random forests and stochastic gradient descent` models are able to keep up with important `concept drifts` by keeping high accuracy. 
+
+They also introduced Big-DAMA, a big data analytics framework for large scale network traffic monitoring and analysis. 
+
+* [:heart_decoration: Read More]()
+
+---
