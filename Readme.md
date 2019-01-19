@@ -58,12 +58,23 @@ This paper in one word, proposing a new way of congestion control to solve the h
 * Reading date: 15/01/2019
 * Keywords : Machine Learning; Computing methodologies; Security and Privacy.
 
-> Because sometimes i don't have idea about what to do next. So i just kindly recommend to others' work to find what all people are interested in. 
-> So i decide to read all the workshop papers in the ML panel in SIGCOMM 2018
-
-This paper is about `Data Stream Machine Learning` for network security and anomaly detection. And especially for `on-line` questions (in this field the general approach is still off-line learning problem). The experiment result shows that the `adaptive random forests and stochastic gradient descent` models are able to keep up with important `concept drifts` by keeping high accuracy. 
+This paper is about `Data Stream Machine Learning` for `network security and anomaly detection`. And especially for `on-line` questions (in this field the general approach is still off-line learning problem). The experiment result shows that the `adaptive random forests and stochastic gradient descent` models are able to keep up with important `concept drifts` by keeping high accuracy. 
 
 They also introduced Big-DAMA, a big data analytics framework for large scale network traffic monitoring and analysis. 
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/01/16/Stream-based-ML/#more)
+
+---
+
+### Improving TCP Congestion Control with Machine Intelligence
+* Author: Yiming Kong (Georgia Tech)
+* Index: SIGCOMM 2018 Workshop
+* Reading date: 16/01/2019
+* Keywords : Network-> Transport protocols Computing methodologies→ Supervised learning; Reinforcement learning; Machine Learning; Security and Privacy.
+
+This paper is about both off-line and on-line TCP-CC scheme.The writer use both supervised learning and reinforcement learning to train two TCP CC schemes.She use NS2 simulation to prepare for the dumbbell topology network and She set the environment to the basic under-buffered bottleneck network.
+Why i choose this paper to read in detail is because it goes into details about the TCP-CC-ML scheme And that helps me to playback the experiment in the paper.
+
 
 * [:heart_decoration: Read More]()
 
