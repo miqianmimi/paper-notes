@@ -54,8 +54,7 @@ This paper is finished by my Academic Idol Lisa Yan. This paper is so important 
 Lisa Yan said that:
 > "In the past five years, the graduate networking course at Stanford has assigned over 200 students the task of reproducing results from over 40 networking papers. We began the project as a means of teaching both engineering rigor and critical thinking, qualities that are necessary for careers in networking research and industry. We have observed that reproducing research can simultaneously be a tool for education and a means for students to contribute to the networking community. "
 
-* [:heart_decoration: Read More](
-)
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/01/20/Reproducing-Network/)
 
 ---
 
