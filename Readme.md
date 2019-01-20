@@ -79,3 +79,17 @@ Why i choose this paper to read in detail is because it goes into details about 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/01/19/TCP-CC-ML/)
 
 ---
+
+### Learning Network by Reproducing Network Result
+* Author: Lisa Yan (Stanford University)
+* Index: SIGCOMM 2017 
+* Reading date: 19/01/2019
+* Keywords : Reproducible research, Teaching computer networks
+* Score: 📒📕📘📗
+
+This paper is so so important because of I learn about the [CS244](http://web.stanford.edu/class/cs244/index.html) So i found this paper have dealing with so many experiment and reproduction in the field of network . That's why i choose this paper. And i'd like to deal with the 23-day project reproduction of PCC [CS244](https://reproducingnetworkresearch.wordpress.com/page/2/). And doing the job described in the CS244.
+
+* [:heart_decoration: Read More](
+)
+
+---
