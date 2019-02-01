@@ -1,5 +1,19 @@
 <h1 align="center"> Directory </h1>
 
+### Jellyfish: Networking Data Centers Randomly
+
+* Author: Ankit Singla (University of Illinois at Urbana–Champaign)
+* Index: HotCloud 2011
+* Reading date : 31/01/2019
+* Keywords : network topology
+
+This paper is for the DataCenter Networking structure, because the datacenter needs high bandwidth requirement. So itself naturally to incremental expansion. Suprisingly, the Jellyfish is more cost-efficient than a fat-tree.
+25% more servers at full capacity using the same equipment at the scale of a few thousand nodes, and this advantage improve with scale.
+I learn what is HotCloud and the first sample reproducing.
+
+---
+
+
 ### Pantheon: the training ground for Internet congestion-control research
 
 * Author: Francis Y. Yan†, (Stanford University)
