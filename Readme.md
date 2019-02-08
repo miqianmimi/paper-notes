@@ -2,6 +2,21 @@
 
 
 
+### PICC:Proactive Incast Congestion Control in a Datacenter Serving Web Application ☀
+
+* Author: Haoyu Wang (UVA University of Virginia)
+* Index: Infocom 2018
+* Reading date : 08/02/2019
+* Keywords : Congestion Control, Web application
+ 
+I read this paper because it is Infocom 2018 conference paper and it is about congestion control. But i have to say this paper's abstraction is not so good for reading.
+
+With rapid development of web applications in datacenter, network latency becomes more important to user experience.The network latency will be greatly increased by incast congestion, in which a huge number of requests arrive at the front-end server simultaneously. This is an incast problem. Previous incast problem solutions are usually not efficient. In this paper, PICC (Proactive Incast Control System) is proposed. It limits the number of data servers concurrently connected to the front-end server to avoid the incast contestion through data placement.PICC incorporate a queuing delay reduction algorithm that assigns higher transmission priority to data objects with smaller size and longer queuing times.
+
+* [:heart_decoration: Read More]()
+
+---
+
 ### CCP:Restructuring Endpoint Congestion Control ☀
 
 * Author: Akshay Narayan (MIT Computer Science and Artificial Intelligence Laboratory)
@@ -11,8 +26,7 @@
 
 This paper is very special idea contained. What it does is a unite thought. It describes the implementation and evaluation of a system to implement complex congestion control functions by placing them in a separate agent outside the datapath (which means Linux Kernel TCP, UDP-based QUIC, kernel-bypass transports like mTCP-on-DPDK) these datapath is for the information about packet rtt and ECN, losses. now we call this off-datapath system Congestion Control Plane(CCP). "write once, run anywhere" makes it supereasy.
 
-* [:heart_decoration: Read More](
-)
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/08/ccp)
 
 ---
 
