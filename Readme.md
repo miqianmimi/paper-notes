@@ -11,6 +11,9 @@
 
 This paper is very special idea contained. What it does is a unite thought. It describes the implementation and evaluation of a system to implement complex congestion control functions by placing them in a separate agent outside the datapath (which means Linux Kernel TCP, UDP-based QUIC, kernel-bypass transports like mTCP-on-DPDK) these datapath is for the information about packet rtt and ECN, losses. now we call this off-datapath system Congestion Control Plane(CCP). "write once, run anywhere" makes it supereasy.
 
+* [:heart_decoration: Read More](
+)
+
 ---
 
 
@@ -25,6 +28,8 @@ This paper is for the DataCenter Networking structure, because the datacenter ne
 25% more servers at full capacity using the same equipment at the scale of a few thousand nodes, and this advantage improve with scale.
 I learn what is HotCloud and the first sample reproducing.
 
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/01/31/jellyfish/)
+
 ---
 
 
@@ -37,6 +42,9 @@ I learn what is HotCloud and the first sample reproducing.
 
 The author present the [Pantheon](https://pantheon.stanford.edu), a system taht addresses this by serving as a community " training ground " for research on Internet Protocols and congestion control. There is a common set of benchmark algorithms and a shared evaluation platform, and a public archive of results.
 Pantheon can also be used to develop new CC schemes , two of which already published on NSDI 2018. I think this is mysterious and interesting that's why i choose this paper to read.
+
+* [:heart_decoration: Read More](
+)
 
 ---
 
@@ -53,8 +61,7 @@ According to the YiboZhu, which is the author of the `DCQCN`: DC networks especi
 
 The author also address the broader question: are there fundamental reasons to `prefer either ECN or delay` for end-to-end congestion control in DC Networks ?
 
-* [:heart_decoration: Read More](
-)
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/01/22/ECN-or-DELAY/)
 
 ---
 
@@ -74,8 +81,7 @@ Datacenter transports aim to deliver low latency messageing together with high t
 
 TIMELY is the first delay-based CC protocol in datacenter. And it achieves its result despite having an order of magnitude fewer RTT signals.
 
-* [:heart_decoration: Read More](
-)
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/01/20/TIMELY/)
 
 ---
 
