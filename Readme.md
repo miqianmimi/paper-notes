@@ -2,7 +2,20 @@
 
 
 
-### PICC:Proactive Incast Congestion Control in a Datacenter Serving Web Application ☀
+### Pensieve: Neural Adaptive Video Streaming with Pensieve ☀
+
+* Author: [Hongzi Mao](http://people.csail.mit.edu/hongzi/) (MIT Computer Science and Artificial Intelligence Laboratory)
+* Index: Sigcomm 2017
+* Reading date : 09/02/2019
+* Keywords : bitrate adaptation, video streaming, reinforcement learning
+ 
+Client-side video players employ ABR algorithms to optimize user QoE. However, state-of-the-art ABR algorithms suffer from limitation: use fixed control rules based on simplified or inaccurate models of the deployment environment. We propose Pensieve, a system that generates ABR alggorithms using reinforcement learning (RL). Pensieve trains a neural network model hat selects bitrates for future video chunks based on observations collected by client video players. No matter that it outperforms the state-of-the-art scheme.
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/08/PICC/#more)
+
+---
+
+### PICC: Proactive Incast Congestion Control in a Datacenter Serving Web Application ☀
 
 * Author: Haoyu Wang (UVA University of Virginia)
 * Index: Infocom 2018
@@ -13,7 +26,7 @@ I read this paper because it is Infocom 2018 conference paper and it is about co
 
 With rapid development of web applications in datacenter, network latency becomes more important to user experience.The network latency will be greatly increased by incast congestion, in which a huge number of requests arrive at the front-end server simultaneously. This is an incast problem. Previous incast problem solutions are usually not efficient. In this paper, PICC (Proactive Incast Control System) is proposed. It limits the number of data servers concurrently connected to the front-end server to avoid the incast contestion through data placement.PICC incorporate a queuing delay reduction algorithm that assigns higher transmission priority to data objects with smaller size and longer queuing times.
 
-* [:heart_decoration: Read More]()
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/08/PICC/#more)
 
 ---
 
@@ -57,8 +70,7 @@ I learn what is HotCloud and the first sample reproducing.
 The author present the [Pantheon](https://pantheon.stanford.edu), a system taht addresses this by serving as a community " training ground " for research on Internet Protocols and congestion control. There is a common set of benchmark algorithms and a shared evaluation platform, and a public archive of results.
 Pantheon can also be used to develop new CC schemes , two of which already published on NSDI 2018. I think this is mysterious and interesting that's why i choose this paper to read.
 
-* [:heart_decoration: Read More](
-)
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/09/Pantheon/)
 
 ---
 
