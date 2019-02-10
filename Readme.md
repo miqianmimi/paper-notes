@@ -1,6 +1,36 @@
 <h1 align="center"> Directory </h1>
 
+### PCC:Re-architecting Congestion Control for Consistent High Performance
 
+* Author: Mo Dong (UIUC)
+* Index: NSDI 2015
+* Reading date : 09/02/2019
+* Keywords : congestion control, reinforcement learning
+ 
+Continuing with the Sequence 1.
+
+TCP has little hope of achieving high performance due to fundamental architectural deficiency. Propose PCC(Peformance-oriented Congestion Control) PCC in which each sender continuously observes the connection between its actions and empricially experienced performance, enabling it to consistently adopt actions that result in high performance. We prove that PCC convereges to a stable and fair equilibrium.
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/09/PCC/)
+
+---
+
+### Remy: Tcp ex Machina: Computer-Generated Congestion Control ☀
+
+* Author: Keith Winstein, Hari Balakrishnan (MIT Now is already Stanford's AP teaching CS244)
+* Index: Sigcomm 2013
+* Reading date : 09/02/2019
+* Keywords : congestion control, computer-generated algorithms.
+ 
+Although i already heard about Remy on the group meeting, but there is no reason to skip it. Since the algorithm used inside the paper is so RL-like.
+
+This paper describe a new apparoach to end-to-end congestion control on a multi-user network. We developed a program called Remy that generates contestion-conrol algorithms to run at the endpoints. Remy produces A distributed algorithm to achieve high throughput and low queueing delay.
+
+In simulations with ns-2, Remy-generated algorithms outperformed human-designed end-to-end techniques, including TCP Cubic, Compound and Vegas. Remy performs better than algorithms in parameters known as priori(datacenter);prior knowledgeg is less precise(cellular network); estimate the sensitivity of the resulting performance to the specificity of the prior knowledge.
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/09/Remy/)
+
+---
 
 ### Pensieve: Neural Adaptive Video Streaming with Pensieve ☀
 
@@ -11,7 +41,7 @@
  
 Client-side video players employ ABR algorithms to optimize user QoE. However, state-of-the-art ABR algorithms suffer from limitation: use fixed control rules based on simplified or inaccurate models of the deployment environment. We propose Pensieve, a system that generates ABR alggorithms using reinforcement learning (RL). Pensieve trains a neural network model hat selects bitrates for future video chunks based on observations collected by client video players. No matter that it outperforms the state-of-the-art scheme.
 
-* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/08/PICC/#more)
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/09/Pensieve/)
 
 ---
 
@@ -26,7 +56,7 @@ I read this paper because it is Infocom 2018 conference paper and it is about co
 
 With rapid development of web applications in datacenter, network latency becomes more important to user experience.The network latency will be greatly increased by incast congestion, in which a huge number of requests arrive at the front-end server simultaneously. This is an incast problem. Previous incast problem solutions are usually not efficient. In this paper, PICC (Proactive Incast Control System) is proposed. It limits the number of data servers concurrently connected to the front-end server to avoid the incast contestion through data placement.PICC incorporate a queuing delay reduction algorithm that assigns higher transmission priority to data objects with smaller size and longer queuing times.
 
-* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/08/PICC/#more)
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/08/PICC/)
 
 ---
 
@@ -60,7 +90,7 @@ I learn what is HotCloud and the first sample reproducing.
 ---
 
 
-### Pantheon: the training ground for Internet congestion-control research
+### Pantheon: the training ground for Internet congestion-control research ☀
 
 * Author: Francis Y. Yan†, (Stanford University)
 * Index: Best Paper at USENIX ATC 2018
