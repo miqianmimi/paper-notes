@@ -2,7 +2,7 @@
 
 ![Progress](http://progressed.io/bar/18?title=first-stage-done)  
 ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)
-![Followers](https://img.shields.io/github/followers/miqianmimi.svg?colorB=pink&label=My followers&logoColor=pink&style=social)
+![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
 ### PCC Vivace: Online-Learning Congestion Control ☀
 
