@@ -2,6 +2,32 @@
 
 ![Progress](http://progressed.io/bar/18?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+
+### DBA: Routing or Computing? The Paradigm Shift Towards Intelligent Computer Network Packet Transmission Based on Deep Learning ☀
+
+* Author: Bomin Mao (Tohoku University 日本東北大學 )
+* Index: `Journal` | IEEE Transactions on Computers 2017
+* Reading date : 10/02/2019
+* Keywords : Software defined routers, network traffic control, deep learning, backbone networks, routing.
+ 
+> 1. Software Defined Routers (programmable routers) have emerged as a viable solution. 
+> 2. Multi-core platforms significantly promote SDRs' parallel computing capacities, enabling them to adopt artificial intelligent techniques. `i.e., deep learning, to manage routing paths.`
+
+In this paper, we explore new opportunities in packet processing. Changing 
+`rule-based route computation` to `deep learning based route estimation` for high-throughput packet processing. 
+
+Because researchers have, to date, not been able to effectively utilize deep learning based `route computation for high-speed core networks. `
+
+- We envision a supervised deep learning system to construct the routing tables 
+- We show how the proposed method can be integrated with `programmable routers` using both (CPUs) and (GPUs).
+- We demonstrate how to enhance the route computation of `the deep learning based SDRs`.
+- In particular, the simulation results demonstrate that our proposal outperforms the benchmark method in terms of delay, throughput, and signaling overhead.
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/10/DBA/)
+
+---
+
+
 ### PCC Vivace: Online-Learning Congestion Control ☀
 
 * Author: Mo Dong and Tong Meng (UIUC)
