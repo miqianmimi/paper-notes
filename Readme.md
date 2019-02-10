@@ -1,7 +1,7 @@
 <h1 align="center"> Directory </h1>
 
 ![Progress](http://progressed.io/bar/18?title=first-stage-done)   
-
+![Followers](https://img.shields.io/github/followers/miqianmimi.svg?colorB=pink&label=myq&logoColor=pink&style=social)
 
 ### PCC Vivace: Online-Learning Congestion Control ☀
 
