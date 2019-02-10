@@ -1,17 +1,33 @@
 <h1 align="center"> Directory </h1>
 
-### PCC:Re-architecting Congestion Control for Consistent High Performance
+### PCC Vivace: Online-Learning Congestion Control ☀
+
+* Author: Mo Dong and Tong Meng (UIUC)
+* Index: NSDI 2018
+* Reading date : 10/02/2019
+* Keywords : congestion control, reinforcement learning
+ 
+Continuing with the Sequence 2.
+
+Author leverage ideas from the rich literature on online (convex) optimization in machine learning to design Vivace, a novel rate-control protocol, designed within the recently proposed PCC framework. PCC Vivace outperforms the previous realization of the PCC framework, and BBR in terms of performance (throughput, latency, loss), convergence speed, alleviating bufferbloat, reactivity to changing network conditions, and friendliness towards legacy TCP in a range of scenarios. Vivace requires only sender-side changes and is thus readily deployable.
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/10/PCCvivace/)
+
+---
+
+
+### PCC:Re-architecting Congestion Control for Consistent High Performance ☀
 
 * Author: Mo Dong (UIUC)
 * Index: NSDI 2015
-* Reading date : 09/02/2019
+* Reading date : 10/02/2019
 * Keywords : congestion control, reinforcement learning
  
 Continuing with the Sequence 1.
 
 TCP has little hope of achieving high performance due to fundamental architectural deficiency. Propose PCC(Peformance-oriented Congestion Control) PCC in which each sender continuously observes the connection between its actions and empricially experienced performance, enabling it to consistently adopt actions that result in high performance. We prove that PCC convereges to a stable and fair equilibrium.
 
-* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/09/PCC/)
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/10/PCC/)
 
 ---
 
@@ -19,7 +35,7 @@ TCP has little hope of achieving high performance due to fundamental architectur
 
 * Author: Keith Winstein, Hari Balakrishnan (MIT Now is already Stanford's AP teaching CS244)
 * Index: Sigcomm 2013
-* Reading date : 09/02/2019
+* Reading date : 10/02/2019
 * Keywords : congestion control, computer-generated algorithms.
  
 Although i already heard about Remy on the group meeting, but there is no reason to skip it. Since the algorithm used inside the paper is so RL-like.
@@ -28,7 +44,7 @@ This paper describe a new apparoach to end-to-end congestion control on a multi-
 
 In simulations with ns-2, Remy-generated algorithms outperformed human-designed end-to-end techniques, including TCP Cubic, Compound and Vegas. Remy performs better than algorithms in parameters known as priori(datacenter);prior knowledgeg is less precise(cellular network); estimate the sensitivity of the resulting performance to the specificity of the prior knowledge.
 
-* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/09/Remy/)
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/10/Remy/)
 
 ---
 
