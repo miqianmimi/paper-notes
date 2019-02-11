@@ -3,16 +3,49 @@
 ![Progress](http://progressed.io/bar/18?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
 
+### CFA: A Practical Prediction System for Video QoE Optimization  ☀
+* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
+* Index: NSDI 2016
+* Reading date : 11/02/2019
+* Keywords : Video Streaming, Bitrate Adaption 
+
+Continuing with the Sequence 2. 
+
+Many prior efforts have suggested that internet video QoE could be dramatically improved by using data-drive prediction of video quality for different choices. (e.g, CDN  or bitrate) to make optimal decisions.
+model to expressive enouggh to capture these complex relationships and capble of updating quality predictions in near real-time. 
+We design and implement CFA(Critical Feature Analytics). This is driven by domain-specific insights hat video quality is typically determined by a small subset of critical features whose criticality persists over several tens of minutes.
+
+learn critical features for different sesions on coarse-grained timescales.
+
+Using a combination of a real-world pilot deplyment and trace-driven analysis. we demonstrate that CFA leads to significant improvements in video quality. 32% less buffering time and 12% higher bitrate than a random decision maker.
+
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/CFA/)
+
+---
 
 ### CS2P: Improving Video Bitrate Selection and Adaptation with Data-Driven Throughput Prediction ☀
 
-* Author: [Yi Sun](http://people.ucas.edu.cn/~sunyi) ( CMU Visitor UCAS 中科院 博导 )
+* Author: [Yi Sun](http://people.ucas.edu.cn/~sunyi) ( CMU Visitor 中科院(UCAS)AP )
 * Index: Sigcomm 2016
-* Reading date : 10/02/2019
+* Reading date : 11/02/2019
 * Keywords : Internet Video, TCP, Throughput Prediction, Bitrate Adaption, Dynamic Adaptive Streaming over HTTP(DASH)
 
+Continuing with the Sequence 1.
 
+Bitrate adaptation is critical to ensure good quality-of-experience(QoE) for Internet Video.（1) initial bitrate selection lower startup delay and offer high initial resolution (2) mid-stream bitrate adaption for high QoE. Prior efforts did not systematically quantify real-world throughput predictability or develop good prediction algorithms. To bridge this gap, the paper do three contributions:
 
+>1. Sessions sharing similar key features present similar initial throughput values and dynamic patterns
+>2. There is a natural "stateful" behavior in throughput variability within a given session 
+
+with these insights, we build CS2P, a throughput prediction system which use a data-driven approach to learn
+
+>1. cluster of similar sessions. 
+>2. an initial throughput predictor.
+>3. a Hidden-Markov-Model based midstream predictor modeling the stateful evolution of throughput.
+
+we develop a prototype system and show using trace-driven simulation and real-world experiments that:(1) CS2P outperforms existing prediction approaches (2) CS2P achieve improvement on overall QoE and high average bitrate over state-of-art model predictive conrol(MPC).
 
  
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/CS2P/)
