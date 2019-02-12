@@ -2,6 +2,107 @@
 
 ![Progress](http://progressed.io/bar/18?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+### Research Statement  ☀
+* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,Computer Science at The University of Chicago AP)
+* Index: Thesis
+* Reading date : 12/02/2019
+* Keywords : Video Streaming, Future research
+
+'Eyeball economy' is dominated by applications such as video streaming and VoIP, maintaining high user-perceived QoE(Quality of Experience) has become crucial to ensure high user engagement. recent research shows even one short buffering interruption leads to 0.39 less time. They either require costly **re-architecting of the network** core or use suboptimal **endpoint-based protocols** to react to the dynamic Internet performance based on limited knowledgge of the network.
+
+Author demonstrate that data-driven techniques can improve Internet QoE by utilizing a centralized real-time view of performance across millions of endpoints(clients). Work focus on **two fundamental challenges** that are unique to applying data-driven approaches in networking: 
+
+1. the need for expressive models to capture complex factors affecting QoE 
+2. the need for scalable platforms to make real-time decisions with fresh data from geo-distributed clients.
+
+Author address these challenges by integrating several domain-specific insights in networked applications with ML algorithms and systems. And achieve better QoE than using off-the-shelf machine learning solutions.
+
+
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/12/Thesis/)
+
+---
+
+### Online Flow Size Prediction for Improved Network Routing  ☀
+* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
+* Index: NSDI 2016
+* Reading date : 11/02/2019
+* Keywords : Video Streaming, Bitrate Adaption 
+
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/Flow-Size-Prediction/)
+
+---
+
+### RTC: Robust Network Traffic Classification ☀
+* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
+* Index: NSDI 2016
+* Reading date : 11/02/2019
+* Keywords : Video Streaming, Bitrate Adaption 
+
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/RTC/)
+
+---
+
+### Sibyl: A Practical Internet Route Oracle  ☀
+* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
+* Index: NSDI 2016
+* Reading date : 11/02/2019
+* Keywords : Video Streaming, Bitrate Adaption 
+
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/Sibyl/)
+
+---
+
+### MLinSDN: Machine Learning in Software Defined Networks: Data Collection and Traffic Classification  ☀
+* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
+* Index: NSDI 2016
+* Reading date : 11/02/2019
+* Keywords : Video Streaming, Bitrate Adaption 
+
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/MLinSDN/)
+
+---
+
+### DeepRM: Resource Management with Deep Reinforcement Learning  ☀
+* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
+* Index: NSDI 2016
+* Reading date : 11/02/2019
+* Keywords : Video Streaming, Bitrate Adaption 
+
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/DeepRM/)
+
+---
+
+
+### Pytheas: Enabling Data-Driven Quality of Experience Optimization Using Group-Based Exploration-Exploitation  ☀
+* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
+* Index: NSDI 2016
+* Reading date : 11/02/2019
+* Keywords : Video Streaming, Bitrate Adaption 
+
+Continuing with the Sequence 3. 
+
+Many ways of optimizing Quality of Experience (QoE) are using data-driven mechanisms. they use the recent sessions 's QoE result to do the optimal decisions. However, they are not accurate and incomplete due to: 
+(1) suffer from many known biases (2) cannot respond to sudden changes.
+
+the author think that the **Drawing a parallel from machine learning**, data-driven QoE optimization should instead be cast as a **real-time exploration and exploitation** (E2) rather than as a prediction problem. Adopting E2 in network applications, however, introduces key architectural challenge and algorithm challenge.
+
+We present Pytheas, a framework which addresses these challenges using a group-based E2 mechanism. The insight is that application sessions sharing the same features can be grouped so that we can run E2 algorithms at a per-group granularity.Using an end-to-end implementation and a proof-of-concept deployment in CloudLab, We show that Pytheas improves video QoE 
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/Pytheas/)
+
+---
 
 ### CFA: A Practical Prediction System for Video QoE Optimization  ☀
 * Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
@@ -18,7 +119,6 @@ We design and implement CFA(Critical Feature Analytics). This is driven by domai
 learn critical features for different sesions on coarse-grained timescales.
 
 Using a combination of a real-world pilot deplyment and trace-driven analysis. we demonstrate that CFA leads to significant improvements in video quality. 32% less buffering time and 12% higher bitrate than a random decision maker.
-
 
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/CFA/)
