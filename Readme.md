@@ -40,12 +40,20 @@ Author address these challenges by integrating several domain-specific insights 
 
 ---
 
-### Online Flow Size Prediction for Improved Network Routing  ☀
-* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
-* Index: NSDI 2016
-* Reading date : 11/02/2019
+### Online Flow Size Prediction for Improved Network Routing  ☀ kai ☀ 
+* Author: Pascal Poupart (Waterloo), Li Chen(HKUST),Kai Chen (HKUST)
+* Index: ICNP 2016
+* Reading date : 15/02/2019
 * Keywords : Video Streaming, Bitrate Adaption 
 
+ICNP (The 26th IEEE International Conference on Network Protocols)/
+We describe an emergint application o data mining in the context of computer networks. This application concerns the problem of predicting the size of a flow and detecting elephant flows(very large flows). Flow size is a very important statistic that can be used to improve routing, load balancing and scheduling in computer networks. 
+
+Flow size prediction is particularly challenging since flow patterns continuously change and predictions must be done in real time (milliseconds) to avoid delays.
+
+We evaluate the accuracy of three online predictors based on neural networks, Gaussian process regression and online Bayesian Moment Matching on three datasets of real traffic.
+
+We also demonstrate how to use such online predictors to improve routing (i.e., reduced flow completion time) in a network simulation.
 
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/Flow-Size-Prediction/)
