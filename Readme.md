@@ -2,6 +2,22 @@
 
 ![Progress](http://progressed.io/bar/18?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+
+### Indigo : in the paper of panetheon  ☀
+* Author: Francis Y. Yan†, (Stanford University)
+* Index: Best Paper at USENIX ATC 2018
+* Reading date : 15/02/2019
+* Keywords : Congestion Control, Machine Learning
+
+Indigo is a machine-learned congestion-control scheme whose design we extract from data gathered by Pantheon.Pantheon's calibrated emulators provide an alternative: they are reproducible, can be instantiated many times in parallel. Our high-level strategy is to train Indigo using emulators, then evaluate it in the real world using Pantheon.
+
+Pantheon facilitates realistic offline training and testing by providing a communal benchmark, evolving dataset, and calibrated emulators to allow approximately realistic offline training and testing.
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/15/indigo/)
+
+---
+
+
 ### Research Statement  ☀
 * Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,Computer Science at The University of Chicago AP)
 * Index: Thesis
