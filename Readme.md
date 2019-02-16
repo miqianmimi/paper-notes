@@ -3,6 +3,27 @@
 ![Progress](http://progressed.io/bar/18?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
 
+### QUIC：Quick UDP Internet Connections 
+* Author: Google
+* Reading date : 16/02/2019
+* Keywords : protocol
+
+QUIC(Quick UDP Internet Connections) is a new transport protocol for the internet, developed by Google. QUIC solves a number of transport-layer and application-layer problems experienced by modern web applications, while requiring little or no change from application writers. 
+
+QUIC is very similar to TCP+TLS+HTTP2, but implemented on top of **UDP**. Having QUIC as a self-contained protocol allows innovations which aren't possible with existing protocols as they are hampered by legacy clients and middleboxes.
+
+Key advantages of QUIC over TCP+TLS+HTTP2 include:
+● Connection establishment latency
+● Improved congestion control
+● Multiplexing without head-of-line blocking
+● Forward error correction
+● Connection migration
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/16/quic/)
+
+---
+
+
 ### Indigo : in the paper of panetheon  
 * Author: Francis Y. Yan†, (Stanford University)
 * Index: Best Paper at USENIX ATC 2018
@@ -41,10 +62,10 @@ Author address these challenges by integrating several domain-specific insights 
 ---
 
 ### Online Flow Size Prediction for Improved Network Routing  ☀ kai ☀ 
-* Author: Pascal Poupart (Waterloo), Li Chen(HKUST),Kai Chen (HKUST)
+* Author: [Pascal_Poupart_(Waterloo)](https://cs.uwaterloo.ca/~ppoupart/), Li Chen(HKUST),Kai Chen (HKUST)
 * Index: ICNP 2016
 * Reading date : 15/02/2019
-* Keywords : Video Streaming, Bitrate Adaption 
+* Keywords : Networks, Online flow size prediction, Routing
 
 ICNP (The 26th IEEE International Conference on Network Protocols)/
 We describe an emergint application o data mining in the context of computer networks. This application concerns the problem of predicting the size of a flow and detecting elephant flows(very large flows). Flow size is a very important statistic that can be used to improve routing, load balancing and scheduling in computer networks. 
