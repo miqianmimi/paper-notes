@@ -3,6 +3,23 @@
 ![Progress](http://progressed.io/bar/18?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
 
+### PCC-244 X 3 : PCC Shallow Queues and Fairness / PCC fairness and flow completion time / Re-architectingg CC for high performance
+* Author: Stanford Students
+* Index: [🐣](https://reproducingnetworkresearch.wordpress.com/)
+* Reading date: 17/02/2019
+* Keywords: PCC
+
+These three papers are PCC related. The reason why i read these three paper is for their experiment settings. 
+
+Following are what they got for the key insights: 
+
+- 1.PCC performance degrades in virtual environments under certain conditions. However even in the environments multiple PCC flows show significantly greater stable convergence and faireness when compared with typical TCP flows.
+
+- 2.What the authors found was that PCC outperforms specially-engineered TCP algorithms in multiple scenarios on a variety of metrics which proves the merit of PCC and the lacking of TCP in specific scenarios. PCC has faster and better convergence to flow-fairness, as seen in figures 6, 12, and 13, and it utilizes buffers better, as seen in figures 4 and 7. What the latter result implies is that it is possible to build routers with very limited memory. Furthermore, in figure 15 we can see that in the worst-case these results are not achieved in the expense of short flow completion time as, even though PCC is slower than CUBIC, it is only 20% slower in the worst case.
+
+- 3.PCC with the default utility function indeed does provide far better throughput than TCP in suboptimal network conditions. However, it also is very unfriendly to existing TCP flows and has significant problems with operating in a virtualized setting that shares tenancy. We discuss the tradeoffs and offer our critique below.
+
+
 ### QUIC：Quick UDP Internet Connections 
 * Author: Google
 * Reading date : 16/02/2019
