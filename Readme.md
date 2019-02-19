@@ -2,6 +2,7 @@
 
 ![Progress](http://progressed.io/bar/18?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+### 
 
 ### PCC-244 X 3 : PCC Shallow Queues and Fairness / PCC fairness and flow completion time / Re-architectingg CC for high performance
 * Author: Stanford Students
@@ -116,6 +117,17 @@ We also demonstrate how to use such online predictors to improve routing (i.e., 
 * Reading date : 11/02/2019
 * Keywords : Video Streaming, Bitrate Adaption 
 
+Network operators measure Internet routes to troubleshoot problems, and researchers measure routes to characterize the Internet. However they still rely on decades-old tools like traceroute, BGP route collectors and looking Glasses.
+
+This paper presents Sibyl, a system that takes rich queries that researchers and operators express as regular expressions, then issues and returns traceroutes that match even if it has never measured a matching path in the past.
+
+There are 3 steps:
+
+1. to maximize its coverage of Internet routing, Sibyl integrates together diverse sets of traceroute vantage points that provide complementary views.
+
+2. Users may not know which measurements will traverse paths of interest.
+
+3. Sibyl optimizes across concurrent queries to decide which measurements to issue given resource constraints.
 
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/Sibyl/)
