@@ -2,7 +2,17 @@
 
 ![Progress](http://progressed.io/bar/18?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
-### 
+### Xavier: A Reinforcement-Learning Approach to TCP Congestion Control
+* Author: [Akshay Aggrawal](https://www.akshayagrawal.com/)
+* Index: CS211 Final Project
+* Reading date: 18/02/2019
+* keywords: CC , RL , NS2
+
+In this paper, i present **Xaiver**, a congestion control policy informed by reinforcement learning and a first step towards adaptible control and analyze its perfromance on two simulated network topologies. Experimental results hint at the utility of using reinforcement-learning for congestion control while also revealing difficulites entailed by doing so. 
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/19/xavier/)
+
+---
 
 ### PCC-244 X 3 : PCC Shallow Queues and Fairness / PCC fairness and flow completion time / Re-architectingg CC for high performance
 * Author: Stanford Students
@@ -20,6 +30,9 @@ Following are what they got for the key insights:
 
 - 3.PCC with the default utility function indeed does provide far better throughput than TCP in suboptimal network conditions. However, it also is very unfriendly to existing TCP flows and has significant problems with operating in a virtualized setting that shares tenancy. We discuss the tradeoffs and offer our critique below.
 
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/17/pcc-244/)
+
+---
 
 ### QUIC：Quick UDP Internet Connections 
 * Author: Google
