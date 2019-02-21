@@ -2,6 +2,21 @@
 
 ![Progress](http://progressed.io/bar/18?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+
+### Internet Congestion Control via Deep Reinforcement Learningg ☀
+* Author: [Nathan Jay] (UIUC University of Illinois at Urbana-Champaign)
+* Index: NIPS 2018 Poster
+* Reading date : 21/02/2019
+* Keywords : Congestion Control, Reinforcement Learning
+
+We present and investigate a novel and timely application domain for deep reinforcement learning (RL): Internet congestion control.Congestion control is fundamental to computer networking research and practice in light of the advent of Internet services such as live video, augmented and virtual reality, Internet-of-Things, and more. Performance-oriented Congestion Control (PCC) framework to formulate congestion control protocol design as an RL task.We present and discuss the challenges that must be overcome so as to realize our long-term vision for Internet congestion control.
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/21/Custard/)
+
+---
+
+
 ### Xavier: A Reinforcement-Learning Approach to TCP Congestion Control
 * Author: [Akshay Aggrawal](https://www.akshayagrawal.com/)
 * Index: CS211 Final Project
