@@ -148,24 +148,24 @@ There are 3 steps:
 ---
 
 ### MLinSDN: Machine Learning in Software Defined Networks: Data Collection and Traffic Classification  ☀
-* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
-* Index: NSDI 2016
-* Reading date : 11/02/2019
-* Keywords : Video Streaming, Bitrate Adaption 
+* Author: Pedro Amaral
+* Index: LoCoSDN project
+* Reading date : 21/02/2019
+* Keywords : Software defined Networks; Machine Learning; Data Analysis; Traffic Classification
 
-
+Abstract—Software Defined Networks (SDNs) provides a separation between the control plane and the forwarding plane of networks. The software implementation of the control plane and the built in data collection mechanisms of the OpenFlow protocol promise to be excellent tools to implement Machine Learning (ML) network control applications. In this work we describe a simple architecture deployed in an enterprise network that gathers traffic data using the OpenFlow protocol.We present the data-sets that can be obtained and show how several ML techniques can be applied to it for traffic classification. The results indicate that high accuracy classification can be obtained with the data-sets using supervised learning. 
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/MLinSDN/)
 
 ---
 
 ### DeepRM: Resource Management with Deep Reinforcement Learning  ☀
-* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
-* Index: NSDI 2016
-* Reading date : 11/02/2019
-* Keywords : Video Streaming, Bitrate Adaption 
+* Author: [hongzimao](http://people.csail.mit.edu/hongzi/) (MIT Computer Science and Artificial Intelligence Laboratory)
+* Index: HotNets 2016
+* Reading date : 21/02/2019
+* Keywords : Resource Mangement, Systems and Networks
 
-
+Resource management problems in systems and networking often manifest as difficult online decision making tasks where appropriate solutions depend on understanding the workload and environment. **Inspired by recent advances in deep reinforcement learning for AI problems, we consider building systems that learn to manage resources directly from experience**. We present **DeepRM**, an example solution that translates the problem of packing tasks with multiple resource demands into a learning problem. Our initial results show that DeepRM performs comparably to state-of-the-art heuristics, adapts to different conditions, converges quickly, and learns strategies that are sensible in hindsight.
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/DeepRM/)
 
