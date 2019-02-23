@@ -2,9 +2,76 @@
 
 ![Progress](http://progressed.io/bar/18?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+### HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems ☀
+* Author: Daehyeok Kim(CMU Computer Science) Yibo Zhu (Bytedance)
+* Index: SIGCOMM 2018 
+* Reading date : 23/02/2019
+* Keywords : Storage System
 
-### Internet Congestion Control via Deep Reinforcement Learningg ☀
-* Author: [Nathan Jay] (UIUC University of Illinois at Urbana-Champaign)
+Storage systems in data centers are an important component of large-scale online services. They typically perform **replicated** transactional operations for high data availability and integrity. 
+
+Today, however, such operations suffer from **hightail latency** even with recent kernel bypass and storage optimizations(RDMA),and thus affect the predictability of end-to-end performance of these services.We observe that the root cause of the problem is the involvement of the CPU, a precious commodity in multi-tenant settings, in the critical path of replicated transactions. 
+
+In this paper, we present HyperLoop, **a new framework that removes CPU from the critical path of replicated transactions in storage systems by offloading them to commodity RDMA NICs.** To achieve this, We develop new and general NIC offloading primitives that can perform memory operations on all nodes in a replication group while guaranteeing ACID properties without CPU involvement. 
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/23/hyperloop/)
+
+---
+
+### LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation ☀
+* Author: [Yizhou Sun](http://lastweek.io/)(Ph.D. at Purdue ECE)
+* Index: OSDI 2018 best paper
+* Reading date : 23/02/2019
+* Keywords : OS, Kernel
+
+The monolithic server model where a server is the unit of deployment, operation, and failure is meeting its limits in the face of several recent hardware and application trends. To improve **resource utilization, elasticity, heterogeneity, and failure handling in datacenters**, **we believe that datacenters should break monolithic servers into disaggregated, network-attached hardware components**. Despite the promising benefits of hardware resource disaggregation, no existing OSes or software systems
+can properly manage it. 
+
+We propose a new OS model called the splitkernel to manage disaggregated systems. Splitkernel disseminates traditional OS functionalities into loosely-coupled monitors, each of which runs on and manages a hardware
+component. A splitkernel also performs resource allocation and failure handling of a distributed set of hardware components. Using the splitkernel model, we built [LegoOS](http://legoos.io/), a new OS designed for hardware resource disaggregation.
+
+- Split OS functions into monitors
+- Run each monitor at hardware device
+- network messaging across non-coherent components
+- global resource managgement and failure handling
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/23/legoos/)
+
+---
+
+
+
+### FINEAS : QoE-Driven Rate Adaptation Heuristic for Fair Adaptive Video Streaming ☀
+* Author: STEFANO PETRANGELI (Ghent University-iMinds)
+* Index: ACM Trans October 2015
+* Reading date : 22/02/2019
+* Keywords : Experimental evaluation, fairness, HTTP Adaptive Streaming
+
+
+HTTP Adaptive Streaming (HAS) is quickly becoming the de facto standard for video streaming services. In HAS, each video is temporally segmented and stored in different quality levels. Rate adaptation heuristics, deployed at the video player, allow the most appropriate level to be dynamically requested, based on the current network conditions. It has been shown that today’s heuristics underperform when multiple clients consume video at the same time, due to fairness issues among clients.
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/22/FINEAS/)
+
+---
+
+### QTCP: Adaptive Congestion Control with Reinforcement Learning ☀
+* Author: Wei Li (NorthEastern University)
+* Index: IEEE Article May 2018
+* Reading date : 22/02/2019
+* Keywords : Congestion Control, Q-learning
+
+Efforts on optimizing the performance of TCP by modifying the core congestion control method depending on specific network architectures or apps do not generalize well under a wide range of network scenarios. Tranditional method where the performance is linked to a pre-decided mapping between the observed state of the network to the corresponding actions.
+
+- We address this problem by integrating a reinforcement-based Q-learning framework with TCP design in our approach called QTCP. QTCP enables senders to gradually learn the optimal congestion control policy in an on-line manner. QTCP does not need hard-coded rules, and can therefore generalize to a variety of different networking scenarios. 
+- Moreover, we develop a generalized Kanerva coding function approximation algorithm, which reduces the computation complexity of value functions and the searchable size of the state space.
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/22/QTCP/)
+
+---
+
+### Custard: Internet Congestion Control via Deep Reinforcement Learning ☀
+* Author: Nathan Jay(UIUC University of Illinois at Urbana-Champaign)
 * Index: NIPS 2018 Poster
 * Reading date : 21/02/2019
 * Keywords : Congestion Control, Reinforcement Learning
@@ -128,11 +195,27 @@ We also demonstrate how to use such online predictors to improve routing (i.e., 
 ---
 
 ### RTC: Robust Network Traffic Classification ☀
-* Author: [Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/) (CMU,,Computer Science at The University of Chicago AP)
-* Index: NSDI 2016
+* Author: [JunZhang](http://www.deakin.edu.au/about-deakin/people/jun-zhang4) (Deakin University)
+* Index: IEEE August 2015 
 * Reading date : 11/02/2019
-* Keywords : Video Streaming, Bitrate Adaption 
+* Keywords : Traffic Classification, Semi-supervised Learning, Zero-day applications
 
+As a fundamental tool for network management and security, traffic classification has attracted increasing attention in recent years. 
+
+A significant challenge to the robustness of classification performance comes from **zero-day applications** previously unknown in traffic classification systems. 
+
+In this paper, we propose a new scheme of Robust statistical Traffic Classification (RTC) by combining supervised and unsupervised machine learning techniques to meet this challenge. 
+
+1. The proposed RTC scheme has the capability of identifying the traffic of zero-day applications as well as accurately discriminating predefined application classes. 
+
+2. In addition, we develop a new method for automating the RTC scheme parameters optimization process. The empirical study on real-world traffic data confirms the effectiveness of the proposed scheme. 
+
+When zero-day applications are present, the classification performance of the new scheme is significantly better than four state-of-the-art methods: 
+
+1. random forest
+2. correlation-based classification
+3. semi-supervised clustering, 
+4. one-class SVM. 
 
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/RTC/)
