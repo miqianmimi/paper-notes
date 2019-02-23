@@ -6,7 +6,7 @@
 * Author: Daehyeok Kim(CMU Computer Science) Yibo Zhu (Bytedance)
 * Index: SIGCOMM 2018 
 * Reading date : 23/02/2019
-* Keywords : Storage System
+* Keywords : Distributed Storage System, Replicated transactions, RDMA NIC-offloading
 
 Storage systems in data centers are an important component of large-scale online services. They typically perform **replicated** transactional operations for high data availability and integrity. 
 
