@@ -171,11 +171,11 @@ QUIC(Quick UDP Internet Connections) is a new transport protocol for the interne
 QUIC is very similar to TCP+TLS+HTTP2, but implemented on top of **UDP**. Having QUIC as a self-contained protocol allows innovations which aren't possible with existing protocols as they are hampered by legacy clients and middleboxes.
 
 Key advantages of QUIC over TCP+TLS+HTTP2 include:
-● Connection establishment latency
-● Improved congestion control
-● Multiplexing without head-of-line blocking
-● Forward error correction
-● Connection migration
+- Connection establishment latency
+- Improved congestion control
+- Multiplexing without head-of-line blocking
+- Forward error correction
+- Connection migration
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/16/quic/)
 
