@@ -2,6 +2,22 @@
 
 ![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+
+### State-of-the-Art Deep Learningg: Evolving Machine Intelligence Toward Tomorrow's Intelligent Network Traffic Control Systems ☀
+* Author: Zubair MD. Fadlullah(Tohoku University)
+* Index: IEEE Communications Surveys
+* Reading date : 25/02/2019
+* Keywords : Machine Learning, Artificial Neural Network
+
+At present, the network traffic control system is mainly composed of an Internet core and a wired/wireless heterogeneous backbone network. Recently, due to the rapid development of communication technologies, these packet switching systems are experiencing explosive network traffic growth. The existing network strategy is not complex enough to cope with the ever-changing network traffic with huge traffic growth.
+
+In this paper, we have solved this and pointed out the necessity of investigating the decentralized work of deep learning and various network traffic control applications. In this regard, we outline the most advanced deep learning architectures and algorithms associated with network traffic control systems. In addition, we also discussed the driving force of deep learning - the network system.
+
+In addition, we discuss in detail a new use case, intelligent routing based on deep learning. We demonstrate the effectiveness of deep learning-based routing methods compared to traditional routing strategies.
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/25/drinc/)
+
+
 ### TCP-Drinc: Smart Congestion Control Based on Deep Reinforcement Learning ☀
 * Author: [Kefan Xiao](http://www.auburn.edu/~kzx0002/) [Shiwen Mao](http://www.eng.auburn.edu/~szm0001/)
 * Index: IEEE Access
