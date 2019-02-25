@@ -1,6 +1,51 @@
 <h1 align="center"> Directory </h1>
 
-![Progress](http://progressed.io/bar/18?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
+![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
+
+### TCP-Drinc: Smart Congestion Control Based on Deep Reinforcement Learning ☀
+* Author: [Kefan Xiao](http://www.auburn.edu/~kzx0002/) [Shiwen Mao](http://www.eng.auburn.edu/~szm0001/)
+* Index: IEEE Access
+* Reading date : 25/02/2019
+* Keywords : congestion control, deep convolutional neural network(DCNN)
+
+This is one of the three important papers i refer to for reproducing.
+
+In this paper, we develop a model free,smart congestion control algorithm based on deep reinforcement learning, which has a high potential in dealing with the complex and dynamic network environment. We present TCP-Deep ReInforcement learNing-based Congestion control (Drinc) which learns from past experience in the form of a set of measured features to decide how to adjust the congestion window size. We present the TCP-Drinc design and validate its performance with extensive **ns-3** simulations and comparison with benchmark schemes.
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/25/drinc/)
+
+---
+
+### State-of-the-Art Deep Learning: Evolving Machine Intelligence Toward Tomorrow’s Intelligent Network Traffic Control Systems ☀
+* Author: Zubair Md.Fadlullah  
+* Index: IEEE 2017
+* Reading date : 25/02/2019
+* Keywords : Machine learning, Artificial Neural Network, Network Traffic Control
+
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/25/DL-in-NetTraffic/)
+
+---
+
+
+### Learning-based and Data-Driven TCP Design for Memory-constrained IoT ☀
+* Author: Wei Li (NorthEastern University) 
+* Index: DCOSS 2016
+* Reading date : 24/02/2019
+* Keywords : TCP, IoT, Q-learning, Kanerva coding
+
+I read again the author Wei Li's paper about using q-learning (rl) to tcp congestion control. This is sequence two and In coincidence, this idea is very much similar to mine. 
+
+Advances in wireless technology have resulted in pervasive deployment of devices of a high variability in form factors, memory and computational ability. The need for maintaining continuous connections that deliver data with high reliability necessitate re-thinking of conventional design of the transport layer protocol. 
+
+**This paper investigates the use of Q-learning in TCP cwnd adaptation during gthe congestion avoidance state,** wherein the classical alternation of the window is replaced, thereby allowing the protocol to immediately respond to previously seen network conditions. We reduce the memory requirements of a learning-based protocol while maintaining the same throughput and delay.
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/23/Learning-based-and-Data-driven-TCP/)
+
+---
+
 
 ### HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems ☀
 * Author: Daehyeok Kim(CMU Computer Science) Yibo Zhu (Bytedance)
