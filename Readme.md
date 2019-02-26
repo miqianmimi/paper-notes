@@ -3,7 +3,20 @@
 ![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
 
-### State-of-the-Art Deep Learningg: Evolving Machine Intelligence Toward Tomorrow's Intelligent Network Traffic Control Systems ☀
+### Why Flow-Completion Time is the Right Metric for Congestion Control ☀
+* Author: Nandita Dukkipati
+* Index: SIGCOMM Computer Communication Rebiew 
+* Reading date : 26/02/2019
+* Keywords : Congestion Control
+
+Uses typically want their flows to complete as quickly as possible. This makes Flow Completion Time(FCT) an important-arguably the most important - performance metric for the user. Yet research on congestion control focuses almost entirely on **maximizing link throughput, utilization and fairness**, which matter more to the operator than the user. 
+
+In this paper we show that with typical Internet flow sizes, existing (TCP Reno) and newly proposed (XCP) congestion control algorithms make flow last much longer than necessary. Often by one or two orders of magnitude. 
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/26/FCT)
+
+
+### State-of-the-Art Deep Learning: Evolving Machine Intelligence Toward Tomorrow's Intelligent Network Traffic Control Systems ☀
 * Author: Zubair MD. Fadlullah(Tohoku University)
 * Index: IEEE Communications Surveys
 * Reading date : 25/02/2019
@@ -15,8 +28,9 @@ In this paper, we have solved this and pointed out the necessity of investigatin
 
 In addition, we discuss in detail a new use case, intelligent routing based on deep learning. We demonstrate the effectiveness of deep learning-based routing methods compared to traditional routing strategies.
 
-* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/25/drinc/)
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/25/DL-in-NetTraffic/)
 
+---
 
 ### TCP-Drinc: Smart Congestion Control Based on Deep Reinforcement Learning ☀
 * Author: [Kefan Xiao](http://www.auburn.edu/~kzx0002/) [Shiwen Mao](http://www.eng.auburn.edu/~szm0001/)
