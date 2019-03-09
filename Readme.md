@@ -3,13 +3,59 @@
 ![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
 
+### Tiresias: A GPU Cluster Manager for Distributed Deep Learning
+* Author: Juncheng Gu
+* Index: NSDI 2019
+* Reading date : 09/03/2019
+* Keywords: Distributed System; Machine Learning
+
+Tiresias, a GPU cluster manager tailored for distributed DL training jobs, which efficiently schedules and places DL jobs to reduce their job completion times (JCTs).Given that a DL job’s execution time is often unpredictable,
+
+- we propose two scheduling algorithms – Discretized Two Dimensional Gittins index relies on partial information and Discretized Two-Dimensional LAS is information-agnostic that aim to minimize the average JCT. 
+- Additionally, we describe when the consolidated placement constraint can be relaxed, and present a placement algorithm to leverage these observations without any user input. 
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/03/09/Tiresias)
+
+
+### Secure Federated Transfer Learning
+* Author: Yang Qiang
+* Index: arXiv:1812.03337
+* Reading date : 09/03/2019
+* Keywords: Federal Learning
+
+ML relies on large amount of data for training. However, most data are scattered and not shared by company A & B. In this paper, we introduce a federated transfer learning(FTL) let (target-domain) party to use more (source-domain) party labels. 
+
+It use Encryption Algorithm to ensure this.
+
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/03/09/Secure-Federated-Transfer-Learning)
+
+
+
+### PIAS:Practical Information-Agnostic Flow Scheduling for Commodity Data Centers
+* Author: Wei Bai
+* Index: NSDI 2015
+* Reading date : 28/02/2019
+* Keywords : Flow scheduling, Data center networks
+
+Many existing data center network (DCN) flow scheduling schemes that minimize flow compleion times(FCT) assume prior knowledge of flows and custom switch functions, making them superior in performance but hard to implement in practice. By contrast. we seek to minimize FCT with no prior knowledge and existing commodity switch hardware.
+
+we present PIAS, DCN flow scheduling mechanism that aims to minimize FCT by mimicking Shortest Job First(SJF) on the premise that flow size is not known a priori, PIAS leverage multiple priority queues available in existing commodity switches to implement a Multiple Level Feedack Queue (MLFQ), in which a PIAS flow is gradually demoted from higher-priority queues to lower-priority queues based on the number of bytes it has sent. As a result, short flows are likely to bbe finished in the first few high-priority queues thus be prioritized over long flows in general. This enables PIAS to emulate SJF without knowing flow sizes beforehand.
+
+evaluatted PIAS through testbbed and ns-2 simulations. PIAS is readily deployable with commodity switches and backward compatible with legacy TCP/IP stacks. It reduces FCT by up to 50% compared to DCTCP and L2DCT
+
+* [:heart_decoration: Read More](https://miqianmimi.github.io/2019/03/02/PIAS)
+
+
+---
+
 ### Why Flow-Completion Time is the Right Metric for Congestion Control ☀
 * Author: Nandita Dukkipati
 * Index: SIGCOMM Computer Communication Rebiew 
 * Reading date : 26/02/2019
 * Keywords : Congestion Control
 
-Uses typically want their flows to complete as quickly as possible. This makes Flow Completion Time(FCT) an important-arguably the most important - performance metric for the user. Yet research on congestion control focuses almost entirely on **maximizing link throughput, utilization and fairness**, which matter more to the operator than the user. 
+Users typically want their flows to complete as quickly as possible. This makes Flow Completion Time(FCT) an important-arguably the most important - performance metric for the user. Yet research on congestion control focuses almost entirely on **maximizing link throughput, utilization and fairness**, which matter more to the operator than the user. 
 
 In this paper we show that with typical Internet flow sizes, existing (TCP Reno) and newly proposed (XCP) congestion control algorithms make flow last much longer than necessary. Often by one or two orders of magnitude. 
 
