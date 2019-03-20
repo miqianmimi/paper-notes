@@ -2,6 +2,18 @@
 
 ![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+### HPCC: High Precision Congestion Control for RDMA
+* Submission paper：
+
+a new RDMA CC mechanism which achieves the three goals simultaneously.
+
+1. HPCC leverages in-network telemetry (INT) to obtain precise link load information and controls traffic precisely.
+
+2. By addressing challenges such as delayed INT information during congestion and overreaction to INT information, HPCC can quickly converge for utilizing free bandwidth or avoiding congestion and maintain near-zero in-network
+queues for ultra-low latency.
+
+3.  HPCC is also fair and easy to deploy with hardware. We implement HPCC with commodity programmable NICs and switches.
+
 
 ### Tiresias: A GPU Cluster Manager for Distributed Deep Learning
 * Author: Juncheng Gu
