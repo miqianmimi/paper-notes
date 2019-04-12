@@ -2,18 +2,6 @@
 
 ![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
-### HPCC: High Precision Congestion Control for RDMA
-* Submission paper：
-
-a new RDMA CC mechanism which achieves the three goals simultaneously.
-
-1. HPCC leverages in-network telemetry (INT) to obtain precise link load information and controls traffic precisely.
-
-2. By addressing challenges such as delayed INT information during congestion and overreaction to INT information, HPCC can quickly converge for utilizing free bandwidth or avoiding congestion and maintain near-zero in-network
-queues for ultra-low latency.
-
-3.  HPCC is also fair and easy to deploy with hardware. We implement HPCC with commodity programmable NICs and switches.
-
 
 ### Tiresias: A GPU Cluster Manager for Distributed Deep Learning
 * Author: Juncheng Gu
@@ -50,11 +38,17 @@ It use Encryption Algorithm to ensure this.
 * Reading date : 28/02/2019
 * Keywords : Flow scheduling, Data center networks
 
-Many existing data center network (DCN) flow scheduling schemes that minimize flow compleion times(FCT) assume prior knowledge of flows and custom switch functions, making them superior in performance but hard to implement in practice. By contrast. we seek to minimize FCT with no prior knowledge and existing commodity switch hardware.
+PIAS is a flow scheduling algorithm whose target is minimize FCT without prior knowledge. And we have implemented a PIAS prototype and evaluated PIAS through both testbed experiments and NS-2 simulations. 
 
-we present PIAS, DCN flow scheduling mechanism that aims to minimize FCT by mimicking Shortest Job First(SJF) on the premise that flow size is not known a priori, PIAS leverage multiple priority queues available in existing commodity switches to implement a Multiple Level Feedack Queue (MLFQ), in which a PIAS flow is gradually demoted from higher-priority queues to lower-priority queues based on the number of bytes it has sent. As a result, short flows are likely to bbe finished in the first few high-priority queues thus be prioritized over long flows in general. This enables PIAS to emulate SJF without knowing flow sizes beforehand.
+so the three key design goals :
+1. information-agnostic (unlike oher PDQ pFabric and PASE)
+2. FCT minimization 
+3. Readily-deployable (DCTCP HULL L2DCT) reduce FCT without relying on flow size information by ECN pacing (end-host based rate control ineffective)
 
-evaluatted PIAS through testbbed and ns-2 simulations. PIAS is readily deployable with commodity switches and backward compatible with legacy TCP/IP stacks. It reduces FCT by up to 50% compared to DCTCP and L2DCT
+1. how to determine the demoted threshold for each queue of MLFQ
+2. as flow size distribution varies across time and space. how to keep PIAS's performance in such a dynamic environment.
+3. how to ensure PIAS's compatibility with legacy TCP/IP stacks in production DCNs?
+
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/03/02/PIAS)
 
