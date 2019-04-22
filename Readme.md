@@ -2,6 +2,14 @@
 
 ![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+### Dynamic TCP Initial Windows and Congestion Control Schemes through Reinforcement Learning
+* Author: Xiaohui Nie
+* Index:JSAC (Journal paper)
+* Reading date : 22/04/2019
+* Keywords: Congestion Control Machine Learning
+
+This is a paper related to my jobs so i read it carefully. it has a pretty good motivation so i like it so so much.
+
 
 ### Tiresias: A GPU Cluster Manager for Distributed Deep Learning
 * Author: Juncheng Gu
