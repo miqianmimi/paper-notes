@@ -2,13 +2,24 @@
 
 ![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+
+### A Deep Reinforcement Learning Perspective on Internet Congestion Control
+* Author: Nathan Jay 
+* Index: arXiv:1810.03259v3
+* Reading date: 03/06/2019
+* Ketwords: Congestion Control Machine Learning
+
+This paper (is a work after PCC) presents and investigate a novle and timely application domain for Deep Reinforcement Learning (Internet Congestion Control). Congestion Control is the core networking task of modulating traffic sources' data-transmission rates to efficiently utilize network capacity and is the subject of extensive attention in light of the advent of Internet services such as live video.
+
+
+
 ### Dynamic TCP Initial Windows and Congestion Control Schemes through Reinforcement Learning
 * Author: Xiaohui Nie
-* Index:JSAC (Journal paper)
-* Reading date : 22/04/2019
+* Index: JSAC (Journal paper)
+* Reading date: 22/04/2019
 * Keywords: Congestion Control Machine Learning
 
-This is a paper related to my jobs so i read it carefully. it has a pretty good motivation so i like it so so much.
+This paper use NS3 and DeepReinforcement Learning to build a smart congestion control algorithm. It is called TCP-Deep ReInforcementlearNing-based Congestion control (Drinc) which learns from past experience in the form of a set of measured features to decide how to adjust the congestion window size. TCP-Drinc has a good result.
 
 
 ### Tiresias: A GPU Cluster Manager for Distributed Deep Learning
