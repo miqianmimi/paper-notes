@@ -4,6 +4,22 @@
 
 
 
+### Why Multi-objective Reinforcement Learning?
+* Author: Diederik M. Roijers, Shimon Whiteson
+* Index: European Workshop on Reinforcement Learning
+* Reading date: 24/06/2019
+* Ketwords: MO - Reinforcement learning
+
+Three scenarios for MORL:
+
+1. Unknown weights scenario occurs. -> Use a multi-objective method to compute in advance a set of policies and then use the current weights to select the optimal policy at any point in time. 
+2. Decision support scenario. -> MORL can be used to calculate an optimal solution set with respect to any known constraints about f and w and then the user selects a policy according to their arbitrary preferences.
+3. known weights scenario. w is known and thus scalarizaion is possible. preferred to use MOMDP.
+
+* [:heart_decoration: Read More]()
+
+---
+
 ### Empirical evaluation methods for multiobjective reinforcement learning algorithms 
 * Author: Peter Vamplew
 * Index: Machine Learning 
