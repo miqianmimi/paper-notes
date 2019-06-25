@@ -3,9 +3,23 @@
 ![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
 
+
+### Empirical evaluation methods for multiobjective reinforcement learning algorithms 
+* Author: Peter Vamplew
+* Index: Machine Learning 
+* Reading date: 14/06/2019
+* Ketwords: Reinforcement learning
+
+While a number of algorithms for multiobjective reinforcement learning have
+been proposed, and a small number of applications developed, there has been very little rigorous empirical evaluation of the performance and limitations of these algorithms. This paper proposes standard methods for such empirical evaluation, to act as a foundation for future comparative studies.
+
+* [:heart_decoration: Read More]()
+
+---
+
 ### A Deep Reinforcement Learning Perspective on Internet Congestion Control
 * Author: Nathan Jay 
-* Index: arXiv:1810.03259v3
+* Index: arXiv:1810.03259v3 ICRL
 * Reading date: 03/06/2019
 * Ketwords: Congestion Control Machine Learning
 
