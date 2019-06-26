@@ -2,7 +2,47 @@
 
 ![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+### Congestion control in wireless sensor networks by hybrid multi-objective optimization algorithm
+* Author: Karishma Singh
+* Index: Computer Network
+* Reading date: 26/06/2019
+* Ketwords: CC, Multi-objective
 
+This paper propose a new congestion control algorithm for wireless sensor networks. The existing algorithms for this problem have high complexity and power usage due to retransmission with congestion control being carried out by finding the optimal rate through a simple wireless sensor network has limited battery.
+
+Besides, energy of the nodes was not considered in the fitness function of the related algorithms, which can lead to node failure when low energy nodes are used for sending high amount of packets. In order to handle those limitations, we propose a congestion control algorithm based on the multi-objective optimization algorithm named PSOGSA for rate optimization and regulating arrival rate of data from every child node to the parent node. A multi-objective optimization function taking into consideration the energy of the node in its fitness function is used.
+
+
+* [:heart_decoration: Read More]()
+
+---
+
+### Multi-Objective Deep Reinforcement Learning
+* Author: Hossam Mossalam
+* Index: arXiv:1610.02707v1
+* Reading date: 26/06/2019
+* Ketwords: MODRL
+
+We propose Deep Optimistic Linear Support Learning (DOL) to solve high dimensional multi-objective decision problems where the relative importances
+of the objectives are not known a priori.
+
+Using features from the high-dimensional inputs, DOL computes the convex coverage set containing all potential optimal solutions of the convex combinations of the objectives. To our knowledge, this is the first time that deep reinforcement learning has succeeded in learning multiobjective policies. 
+* [:heart_decoration: Read More]()
+
+---
+
+### Multiobjective Reinforcement Learning: A Comprehensive Overview
+* Author: Chunming Liu
+* Index: IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS: SYSTEMS,
+* Reading date: 25/06/2019
+* Ketwords: MORL
+
+The aim of this paper is to present a comprehensive overview of MORL. The
+**basic architecture, research topics, and naive solutions** of MORL are introduced at first. Then, several representative MORL approaches and some important directions of recent research are comprehensively reviewed. The relationships between MORL and other related research are also discussed, which include multiobjective optimization, hierarchical RL, and multiagent RL.
+
+* [:heart_decoration: Read More]()
+
+---
 
 ### Why Multi-objective Reinforcement Learning?
 * Author: Diederik M. Roijers, Shimon Whiteson
@@ -12,9 +52,9 @@
 
 Three scenarios for MORL:
 
-1. Unknown weights scenario occurs. -> Use a multi-objective method to compute in advance a set of policies and then use the current weights to select the optimal policy at any point in time. 
-2. Decision support scenario. -> MORL can be used to calculate an optimal solution set with respect to any known constraints about f and w and then the user selects a policy according to their arbitrary preferences.
-3. known weights scenario. w is known and thus scalarizaion is possible. preferred to use MOMDP.
+- Unknown weights scenario occurs. -> Use a multi-objective method to compute in advance a set of policies and then use the current weights to select the optimal policy at any point in time. 
+- Decision support scenario. -> MORL can be used to calculate an optimal solution set with respect to any known constraints about f and w and then the user selects a policy according to their arbitrary preferences.
+- known weights scenario. w is known and thus scalarizaion is possible. preferred to use MOMDP.
 
 * [:heart_decoration: Read More]()
 
