@@ -2,6 +2,24 @@
 
 ![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+
+
+### Inside the Social Network’s (Datacenter) Network
+* Author: Arjun Roy
+* Index: SIGCOMM 2015
+* Reading date: 01/07/2019
+* Ketwords: Datacenter traffic pattern
+
+Datacenter operators are generally reticent to share the actual requirements of their applications, making it challenging to evaluate the practicality of any particular design. 
+
+So in this work, we report upon the network traffic observed in some of Facebook’s datacenters. We report on the contrasting locality, stability, and predictability of network traffic in Facebook’s datacenters, and comment on their implications for network architecture, traffic engineering,and switch design.
+
+* [:heart_decoration: Read More]()
+
+---
+
+
+
 ### Congestion control in wireless sensor networks by hybrid multi-objective optimization algorithm
 * Author: Karishma Singh
 * Index: Computer Network
