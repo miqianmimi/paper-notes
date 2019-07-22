@@ -1,8 +1,19 @@
 <h1 align="center"> Directory </h1>
-
 ![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
+### Machine Learning for Networking:Workflow,Advances and Opportunities
+* Author: Mowei Wang and Junchen Jiang
+* Index: IEEE Network
+* Reading date: 12/07/2019
+* Keywords: Machine Learning and Network
 
+Networking itself can benefit from this promising technology——Machine Learning.
+It can not only help solve the intractable old network questions but also simulate new network applications. Finally, this paper shed light on the new opportunities in networking design and community building of this new inter-discipline. 
+
+
+* [:heart_decoration: Read More]()
+
+---
 
 ### Dynamic TCP Initial Windows and Congestion Control Schemes through Reinforcement Learning
 * Author: Xiaohui Nie
@@ -12,6 +23,8 @@
 
 This paper use NS3 and DeepReinforcement Learning to build a smart congestion control algorithm. It is called TCP-Deep ReInforcementlearNing-based Congestion control (Drinc) which learns from past experience in the form of a set of measured features to decide how to adjust the congestion window size. TCP-Drinc has a good result.
 
+
+* [:heart_decoration: Read More]()
 
 ---
 
@@ -43,6 +56,8 @@ It use Encryption Algorithm to ensure this.
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/03/09/Secure-Federated-Transfer-Learning)
 
+---
+
 
 
 ### PIAS:Practical Information-Agnostic Flow Scheduling for Commodity Data Centers
@@ -65,7 +80,6 @@ so the three key design goals :
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/03/02/PIAS)
 
-
 ---
 
 ### Why Flow-Completion Time is the Right Metric for Congestion Control ☀
@@ -80,8 +94,10 @@ In this paper we show that with typical Internet flow sizes, existing (TCP Reno)
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/26/FCT)
 
+---
 
 ### State-of-the-Art Deep Learning: Evolving Machine Intelligence Toward Tomorrow's Intelligent Network Traffic Control Systems ☀
+
 * Author: Zubair MD. Fadlullah(Tohoku University)
 * Index: IEEE Communications Surveys
 * Reading date : 25/02/2019
@@ -472,7 +488,7 @@ with these insights, we build CS2P, a throughput prediction system which use a d
 
 we develop a prototype system and show using trace-driven simulation and real-world experiments that:(1) CS2P outperforms existing prediction approaches (2) CS2P achieve improvement on overall QoE and high average bitrate over state-of-art model predictive conrol(MPC).
 
- 
+
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/11/CS2P/)
 
 ---
@@ -484,7 +500,7 @@ we develop a prototype system and show using trace-driven simulation and real-wo
 * Index: `Journal` | IEEE Transactions on Computers 2017
 * Reading date : 10/02/2019
 * Keywords : Software defined routers, network traffic control, deep learning, backbone networks, routing.
- 
+
 > 1. Software Defined Routers (programmable routers) have emerged as a viable solution. 
 > 2. Multi-core platforms significantly promote SDRs' parallel computing capacities, enabling them to adopt artificial intelligent techniques. i.e., deep learning, to manage routing paths.
 
@@ -501,7 +517,7 @@ In this paper, we explore the deep learning based route estimation for high-thro
 * Index: NSDI 2018
 * Reading date : 10/02/2019
 * Keywords : congestion control, reinforcement learning
- 
+
 Continuing with the Sequence 2.
 
 Author leverage ideas from the rich literature on online (convex) optimization in machine learning to design Vivace, a novel rate-control protocol, designed within the recently proposed PCC framework. PCC Vivace outperforms the previous realization of the PCC framework, and BBR in terms of performance (throughput, latency, loss), convergence speed, alleviating bufferbloat, reactivity to changing network conditions, and friendliness towards legacy TCP in a range of scenarios. Vivace requires only sender-side changes and is thus readily deployable.
@@ -517,7 +533,7 @@ Author leverage ideas from the rich literature on online (convex) optimization i
 * Index: NSDI 2015
 * Reading date : 10/02/2019
 * Keywords : congestion control, reinforcement learning
- 
+
 Continuing with the Sequence 1.
 
 Add [pcc](http://modong.github.io/pcc-page/#pcc_arch) website
@@ -534,7 +550,7 @@ TCP has little hope of achieving high performance due to fundamental architectur
 * Index: Sigcomm 2013
 * Reading date : 10/02/2019
 * Keywords : congestion control, computer-generated algorithms.
- 
+
 Although i already heard about Remy on the group meeting, but there is no reason to skip it. Since the algorithm used inside the paper is so RL-like.
 
 This paper describe a new apparoach to end-to-end congestion control on a multi-user network. We developed a program called Remy that generates contestion-conrol algorithms to run at the endpoints. Remy produces A distributed algorithm to achieve high throughput and low queueing delay.
@@ -551,7 +567,7 @@ In simulations with ns-2, Remy-generated algorithms outperformed human-designed 
 * Index: Sigcomm 2017
 * Reading date : 09/02/2019
 * Keywords : bitrate adaptation, video streaming, reinforcement learning
- 
+
 Client-side video players employ ABR algorithms to optimize user QoE. However, state-of-the-art ABR algorithms suffer from limitation: use fixed control rules based on simplified or inaccurate models of the deployment environment. We propose Pensieve, a system that generates ABR alggorithms using reinforcement learning (RL). Pensieve trains a neural network model hat selects bitrates for future video chunks based on observations collected by client video players. No matter that it outperforms the state-of-the-art scheme.
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/02/09/Pensieve/)
@@ -564,7 +580,7 @@ Client-side video players employ ABR algorithms to optimize user QoE. However, s
 * Index: Infocom 2018
 * Reading date : 08/02/2019
 * Keywords : Congestion Control, Web application
- 
+
 I read this paper because it is Infocom 2018 conference paper and it is about congestion control. But i have to say this paper's abstraction is not so good for reading.
 
 With rapid development of web applications in datacenter, network latency becomes more important to user experience.The network latency will be greatly increased by incast congestion, in which a huge number of requests arrive at the front-end server simultaneously. This is an incast problem. Previous incast problem solutions are usually not efficient. In this paper, PICC (Proactive Incast Control System) is proposed. It limits the number of data servers concurrently connected to the front-end server to avoid the incast contestion through data placement.PICC incorporate a queuing delay reduction algorithm that assigns higher transmission priority to data objects with smaller size and longer queuing times.
