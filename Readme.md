@@ -1,7 +1,8 @@
 <h1 align="center"> Directory </h1>
-![Progress](http://progressed.io/bar/20?title=done)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
+![](https://img.shields.io/badge/done-20%-blue.svg)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)![](https://img.shields.io/github/size/miqianmimi/paper-notes/Readme.md.svg?color=pink)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
 
 ### Machine Learning for Networking:Workflow,Advances and Opportunities
+
 * Author: Mowei Wang and Junchen Jiang
 * Index: IEEE Network
 * Reading date: 12/07/2019
@@ -42,8 +43,10 @@ Tiresias, a GPU cluster manager tailored for distributed DL training jobs, which
 
 * [:heart_decoration: Read More](https://miqianmimi.github.io/2019/03/09/Tiresias)
 
+---
 
 ### Secure Federated Transfer Learning
+
 * Author: Yang Qiang
 * Index: arXiv:1812.03337
 * Reading date : 09/03/2019
