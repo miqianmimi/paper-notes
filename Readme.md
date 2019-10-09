@@ -15,18 +15,11 @@ Congestion Detection/ loss-based/ buffer bloat / MTU vs MSS. / send window / ini
 
 Basic introduction to these concepts.  e.g. (Retransmission Timeout), (Fast Retransmission). 
 
-* Loss-based; 
-* Delay-based; 
-* Congestion-based (Bottleneck Bandwidth and RTT) [BBR]; 
-* Bandwidth Delay Product (BDP)-based;
-
 MSS (maximum segment size) 536 bytes. MTU(maximum transmission unit)
 
 Ethernet MTU=1500 MSS=MTU-20 octet(TCP)-20 octet (IP)  this two unit for congestion control.
 
-Congestion Control use these two as the limited sender size. SMSS;RMSS;Flight Size; 
-
- Intiral window = 2*SMSS-4*SMSS ; 2013 10SMSS
+ SMSS;RMSS;Flight Size;  Intiral window = 2*SMSS-4*SMSS ; 2013 10SMSS
 
 - [:heart_decoration: Read More](https://notfalse.net/28/tcp-congestion-control)
 
