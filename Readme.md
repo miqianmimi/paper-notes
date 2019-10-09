@@ -4,6 +4,19 @@
 
 
 
+### Impact of TCP BBR on CUBIC Traffic: A Mixed Workload Evaluation  ☀
+
+- Author: Habtegebreil Haile
+- Index: ITC(International Teletraffic Congress) 2018
+- Reading date: 09/10/2019
+- Keywords:  Evaluation, CUBIC, BBR
+
+new alternative algorithm requires a thorough evaluation of the effect of the proposed alternative on established transport protocols like TCP CUBIC.  Evaluations that consider the heterogeneity of Internet traffic sizes. Most evaluations before of BBR focus on steady-state performance of large flows.The steady-state operation of BBR can have negative impact on the performance of bursty flows using loss-based CCAs.
+
+- [:heart_decoration: Read More](https://itc-conference.org/_Resources/Persistent/d7e610d8d9b9300ccfb1f443f828d116dab5fb55/Hurtig18ITC30.pdf)
+
+------
+
 ### TCP Congestion Control 
 
 - Author: Unknown
