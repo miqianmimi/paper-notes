@@ -1,7 +1,38 @@
 <h1 align="center"> Directory </h1>
 
-
 ![](https://img.shields.io/badge/done-20%25-pink.svg)  ![](https://img.shields.io/github/last-commit/miqianmimi/paper-notes.svg?colorB=pink&logoColor=pink&style=flat)![](https://img.shields.io/github/size/miqianmimi/paper-notes/Readme.md.svg?color=pink)  ![](https://img.shields.io/github/followers/miqianmimi.svg?label=My%20Followers&logoColor=pink&style=social)
+
+
+
+### TCP Congestion Control 
+
+- Author: Unknown
+- Index: introduce
+- Reading date: 09/10/2019
+- Keywords: Congestion Avoidance / Fast Retransmit
+
+Congestion Detection/ loss-based/ buffer bloat / MTU vs MSS. / send window / initial window, IW .
+
+Basic introduction to these concepts.  e.g. (Retransmission Timeout), (Fast Retransmission). 
+
+* Loss-based; 
+* Delay-based; 
+* Congestion-based (Bottleneck Bandwidth and RTT) [BBR]; 
+* Bandwidth Delay Product (BDP)-based;
+
+MSS (maximum segment size) 536 bytes. MTU(maximum transmission unit)
+
+Ethernet MTU=1500 MSS=MTU-20 octet(TCP)-20 octet (IP)  this two unit for congestion control.
+
+Congestion Control use these two as the limited sender size. SMSS;RMSS;Flight Size; 
+
+ Intiral window = 2*SMSS-4*SMSS ; 2013 10SMSS
+
+- [:heart_decoration: Read More](https://notfalse.net/28/tcp-congestion-control)
+
+------
+
+### 
 
 ### Machine Learning for Networking:Workflow,Advances and Opportunities
 
